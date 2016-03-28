@@ -1,6 +1,6 @@
-# Batch Image Resizer
+# Batch Image Scaler
 
-Simple utility to recursively resize all image files (`.png`, `.jpg`) within the parent directory to fit within a specified max dimension. For example, an image of size `200x600px` resized to a max dimension of `300px` will be end up being `100x300px`. Images smaller than the max dimension will be untouched.
+Simple utility to recursively scale down all image files (`.png`, `.jpg`) within the parent directory to fit within a specified max dimension. For example, an image of size `200x600px` resized to a max dimension of `300px` will be end up being `100x300px`. Images smaller than the max dimension will be untouched.
 
 Essentially this is a wrapper for thebuzzmedia's [imgscalr][1] library, performing the scaling in bulk.
 
@@ -20,7 +20,7 @@ Windows only.
 #### Manual use
 
 1. Compile [imgscalr][1] from source
-1. Compile `ListFiles.java` from source
+2. Compile `ListFiles.java` from source
 3. Follow "easy use" with the newly generated files
 
 ## History
